@@ -90,7 +90,7 @@ llm-memory-starter/
 
 ```bash
 # Clone o repo
-git clone https://github.com/{{SEU_USUARIO}}/llm-memory-starter.git
+git clone https://github.com/matheusbrramos/llm-memory-starter.git
 
 # Copie os templates pro seu projeto
 cp templates/SOUL.template.md ~/seu-projeto/SOUL.md
