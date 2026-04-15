@@ -18,6 +18,12 @@
   
   Dica: Nao tente ser perfeito na v1. A personalidade se calibra com uso.
   Comece com o minimo e deixe o agente (ou voce) adicionar secoes depois.
+  
+  IMPORTANTE: Este template e o ponto de partida — nao o destino. A identidade
+  real emerge com uso e iteracao. Espere reescrever este arquivo varias vezes.
+  Um SOUL.md de 15 linhas funciona pra comecar. Um SOUL.md que funciona DE VERDADE
+  tem historia, contradicoes, camadas — e leva semanas ou meses pra amadurecer.
+  Nao confunda o template com o resultado.
 -->
 
 ---

@@ -79,14 +79,23 @@ O que encontramos de diferente na pratica:
 
 1. **Tipologia semantica explicita** (user/feedback/project/reference) em vez de categorias automaticas. O agente sabe o PROPOSITO de cada memoria, nao so o conteudo.
 2. **Regras de NAO-salvamento** tao claras quanto regras de salvamento. A maioria dos frameworks foca em "o que capturar". Nos focamos igualmente em "o que ignorar".
-3. **Expiração explicita.** Memorias tipo project envelhecem rapido. Revisar e remover memorias obsoletas e parte do workflow, nao um afterthought.
+3. **Expiração por tipo.** Nem toda memoria envelhece igual. A regra de expiracao depende do tipo:
+
+| Tipo | Expira? | Regra |
+|------|---------|-------|
+| **user** | Raramente | Atualiza quando o perfil muda. Nunca deleta — sobrescreve. |
+| **feedback** | Quando superado | Se uma regra e substituida por outra, remova a antiga. Se ainda vale, fica. |
+| **project** | Quando o projeto termina | Sao as que mais envelhecem. Revise a cada 2-4 semanas. |
+| **reference** | Quando a fonte muda | URL mudou? Dashboard migrou? Atualize ou remova. |
+
+Identidade (SOUL.md, STYLE.md) **nunca expira** — cresce por acumulacao. Memorias de projeto expiram rapido. Tratar tudo igual e receita para contexto poluido.
 
 ## Como implementar
 
 1. Crie a pasta de memoria no padrao do seu editor (`.claude/projects/.../memory/` pra Claude Code)
 2. Comece com 1 memoria tipo `user` (perfil basico) e 1 tipo `feedback` (primeira correcao que voce fizer)
 3. Use os templates em `/templates/memory/` como ponto de partida
-4. Revise a cada 2-4 semanas: remova o que envelheceu, atualize o que mudou
+4. Revise periodicamente seguindo a tabela de expiracao acima
 
 ---
 

@@ -4,6 +4,10 @@
 
 ---
 
+> **Nota de escopo:** Esta camada e especifica para projetos de software — repositorios com codigo, migrations, decisoes arquiteturais. Se o seu contexto e pessoal, criativo ou nao-tecnico, as 3 primeiras camadas (identidade, hierarquia, memoria) sao suficientes. Nao force esta camada onde ela nao faz sentido.
+
+---
+
 ## O problema
 
 Voce muda algo no projeto. Migra de banco de dados. Troca a arquitetura de autenticacao. Muda o fluxo de deploy.
